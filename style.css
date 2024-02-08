@@ -10,6 +10,24 @@ body{
   font-family: 'Oleo Script', system-ui;
 }
 
+.offcanvas{
+  background-color: rgb(54, 102, 64);
+}
+
+
+ul{
+  background-color: #F1E4D0;
+}
+
+ul.navbar-nav {
+  padding: 2.5rem;
+}
+
+.offcanvas.show {
+  background-color: rgb(54, 102, 64);
+}
+
+
 .row{
   height: 100vh;
   width: 100vw;
