@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Roboto&display=swap');
+
+/* nav section */
+nav{
+  background-color: rgb(54, 102, 64);
+  height: 15vh;
+}
+
+nav h1{
+  color: #F1E4D0;
+}
+
+/* main section */
+main{
+  margin-top: 15vh;
+}
+
+#introduce{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #F1E4D0;
+  padding: 5rem 2rem;
+}
+
+#introduce h3{
+  margin-top: 2rem;
+}
+
+#introduce p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+h1.display-1{
+  padding: 2rem;
+}
+
+span{
+  color: rgb(54, 102, 64);
+}
+
+#like{
+  padding: 4rem;
+  background-color: rgb(54, 102, 64);
+  text-align: center;
+}
+
+#like h3{
+  color: #F1E4D0;
+  padding-bottom: 3rem;
+}
+
+#icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 rem;
+}
