@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+html {
+  --primary-color: rgb(54, 102, 64);
+  --secondary-color: #F1E4D0;
+}
+
 body{
   font-family: 'Oleo Script', system-ui;
   font-size: 17px;
@@ -13,11 +18,11 @@ body{
 
 /* nav section */
 .offcanvas{
-  background-color: rgb(54, 102, 64);
+  background-color: var(--primary-color);
 }
 
 ul{
-  background-color: #F1E4D0;
+  background-color: var(--secondary-color);
 }
 
 ul.navbar-nav {

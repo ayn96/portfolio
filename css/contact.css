@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Roboto&display=swap');
+
+main{
+  font-family: 'Roboto', sans-serif;
+}
+
+#contact-form{
+  padding: 3rem 0;
+}
+
+/* form section */
+#form{
+  margin: 2rem 0;
+}
+
+.input-group{
+  padding: 0.5rem 2rem;
+}
+
+/* icon */
+.input-group-text{
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+}
+
+/* input */
+.form-control{
+  padding: 0.8rem;
+}
+
+#text.form-control{
+  padding: 0.8rem;
+}
+
+/* button */
+.btn{
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin-top: 2.5rem;
+}
+
+/* social section*/
+#social{
+  height: 40vh;
+  padding: 3rem 0;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+
+#social a{
+  font-size: 3rem;
+  padding: 2rem;
+  color: var(--secondary-color);
+}
