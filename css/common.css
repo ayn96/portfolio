@@ -1,0 +1,14 @@
+/* nav section */
+nav{
+  background-color: rgb(54, 102, 64);
+  height: 15vh;
+}
+
+nav h1{
+  color: #F1E4D0;
+}
+
+/* main section */
+main{
+  margin-top: 15vh;
+}

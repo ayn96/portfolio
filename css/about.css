@@ -53,9 +53,18 @@ span{
   padding-bottom: 3rem;
 }
 
-#icons{
+#icons ul{
+  background-color: rgb(54, 102, 64);
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin: 0 rem;
+}
+
+#icons li{
+  list-style: none;
+}
+
+#icons img{
+  color: white;
 }
