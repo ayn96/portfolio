@@ -1,3 +1,10 @@
+.language a{
+  color: #F1E4D0;
+  text-decoration: none;
+  margin: auto 1rem;
+  font-size: 1.5rem;
+}
+
 .row{
   height: 100vh;
   width: 100vw;

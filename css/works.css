@@ -1,0 +1,45 @@
+
+
+#work-group{
+  padding: 5rem 3rem; 
+  background-color:  var(--primary-color);
+}
+
+.card-body{
+  background-color: var(--secondary-color);
+}
+
+.card-title{
+  padding: 1rem 0;
+}
+
+.fa-brands{
+  margin-right: 1rem;
+  font-size: 20px;
+}
+
+.fa-html5{
+  color: brown;
+}
+
+.fa-css3-alt{
+  color: rgb(5, 155, 255);
+}
+
+.fa-js{
+  color: rgb(255, 187, 0);
+}
+
+.fa-bootstrap{
+  color: blueviolet;
+}
+
+.btn{
+  background-color:  var(--primary-color);
+
+}
+
+#work{
+  margin: 3rem 0;
+  padding: 0 1.5rem;
+}
