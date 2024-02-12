@@ -14,19 +14,18 @@
   <header>
     <nav class="navbar navbar-light fixed-top">
       <div class="container-fluid">
-        <div class="language">
-          <a href="#">EN</a>
-          <a href="#">JA</a>
-        </div>
+        <!-- hamburger -->
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-          <span class="navbar-toggler-icon"></span>
+          <i class="bi bi-list"></i>
         </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <!-- close -->
+        <div class="offcanvas offcanvas-end navbar-toggler" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
-            <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <i class="bi bi-x-lg" data-bs-dismiss="offcanvas" aria-label="Close"></i>
           </div>
+
           <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <ul class="navbar-nav flex-grow-1">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
               </li>
@@ -66,5 +65,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-mTOiW0MbjMQVt7jODOAQbV4efikzBY+yo8JzcyuH90Tkze5pzsQu/J+sLvJb+qEp" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 </html>

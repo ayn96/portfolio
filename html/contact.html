@@ -14,32 +14,35 @@
 <body> 
   <!-- header section -->
   <header>
-    <nav class="navbar navbar-light fixed-top ">
+    <nav class="navbar navbar-light fixed-top">
       <div class="container-fluid">
-        <h1 class="mx-auto">Contact</h1>
+        <h1 class="menu-title mx-auto">Contact</h1>
+        <!-- hamburger -->
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-          <span class="navbar-toggler-icon"></span>
+          <i class="bi bi-list"></i>
         </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <!-- close -->
+        <div class="offcanvas offcanvas-end navbar-toggler" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
-            <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <i class="bi bi-x-lg" data-bs-dismiss="offcanvas" aria-label="Close"></i>
           </div>
+          <!-- nav -->
           <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <ul class="navbar-nav flex-grow-1">
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="../index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../html/about.html">About me</a>
+                <a class="nav-link" href="./about.html">About me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../html/skills.html">Skills</a>
+                <a class="nav-link" href="./skills.html">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../html/works.html">Works</a>
+                <a class="nav-link" href="./works.html">Works</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="../html/contact.html">Contact</a>
+                <a class="nav-link  active" href="./contact.html">Contact</a>
               </li>
             </ul>
           </div>

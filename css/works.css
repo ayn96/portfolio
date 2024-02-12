@@ -7,10 +7,18 @@
 
 .card-body{
   background-color: var(--secondary-color);
+  padding: 1rem 1.5rem;
+
 }
 
 .card-title{
   padding: 1rem 0;
+  font-weight: bold;
+}
+
+.list-group li{
+  background-color: var(--secondary-color);
+  border: none;
 }
 
 .fa-brands{

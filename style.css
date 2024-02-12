@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+*:focus {
+  box-shadow:none !important;
+  border-color: transparent;
+}
+
 html {
   --primary-color: rgb(54, 102, 64);
   --secondary-color: #F1E4D0;
@@ -19,14 +24,42 @@ body{
 /* nav section */
 .offcanvas{
   background-color: var(--primary-color);
+  width: 100%;
 }
 
-ul{
+.menu-title{
+  padding-left: calc(0.75rem + 0.75rem + 1.25rem);
+}
+
+/* icon */
+.bi-list,
+.bi-x-lg{
+  color: var(--secondary-color);
+  font-size: 50px;
+}
+
+.offcanvas-body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* nav ul */
+ul.navbar-nav {
+  padding: 2.5rem;
   background-color: var(--secondary-color);
 }
 
-ul.navbar-nav {
-  padding: 2.5rem;
+.nav-link{
+  padding: 2rem 0;
 }
 
+.nav-link:hover {
+  color: var(--primary-color) !important; 
+}
 
