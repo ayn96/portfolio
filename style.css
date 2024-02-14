@@ -14,6 +14,7 @@
 html {
   --primary-color: rgb(54, 102, 64);
   --secondary-color: #F1E4D0;
+  width: 100vw;
 }
 
 body{

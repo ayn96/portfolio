@@ -1,0 +1,95 @@
+/* common section */
+main{
+  height: calc(100vh - 15vh);
+}
+
+.row{
+  height: calc(100vh - 15vh);
+  align-items: center;
+}
+
+/* graph section */
+.title{
+  margin-bottom:2.5rem;
+  padding: 1rem 0;
+  border-bottom: 1px dashed #aaa;
+  text-align:center;
+  font-weight: bold;
+}
+
+.graph{
+  display: flex;
+  margin: 2rem 0;
+  font-size: 25px;
+  position:relative;
+  background:#dfe6e8;
+}
+
+.html dt{
+  background-color: rgb(245, 97, 97);
+}
+
+.css dt{
+  background-color: rgb(72, 163, 237);
+}
+
+.js dt{
+  background-color: rgb(236, 211, 87);
+}
+
+.php dt{
+  background-color: rgb(156, 79, 228);
+}
+
+.python dt{
+  background-color: rgb(11, 119, 161);
+} 
+
+.django dt{
+  background-color: rgb(25, 150, 25);
+}
+
+.sql dt{
+  background-color: bisque;
+}
+
+.graph dt{
+  display: flex;
+  align-items: center;
+  animation: graphAnim 2.5s forwards;
+  height: 7vh;
+  overflow: hidden;
+}
+
+.graph dd{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex:1;
+  margin:0;
+  font-size:25px;
+  background:#dfe6e8;
+  padding-right: 1rem;
+}
+
+.graph span{
+  z-index: 1;
+  font-size: 25px;
+}
+
+.graph i{
+  font-size: 50px;
+  padding-left: 1rem;
+}
+
+.language{
+  padding-left: 1rem;
+}
+
+
+/* animation */
+@keyframes graphAnim {
+  0% {
+    width: 0; 
+  }
+}
