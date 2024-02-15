@@ -45,13 +45,6 @@ main{
   background-color: rgb(11, 119, 161);
 } 
 
-.django dt{
-  background-color: rgb(25, 150, 25);
-}
-
-.sql dt{
-  background-color: bisque;
-}
 
 .graph dt{
   display: flex;
@@ -80,6 +73,7 @@ main{
 .graph i{
   font-size: 50px;
   padding-left: 1rem;
+  color: white;
 }
 
 .language{

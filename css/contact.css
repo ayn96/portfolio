@@ -42,6 +42,9 @@ main{
 
 /* social section*/
 #social{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 40vh;
   padding: 3rem 0;
   background-color: var(--primary-color);
