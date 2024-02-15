@@ -50,6 +50,7 @@ main{
   display: flex;
   align-items: center;
   animation: graphAnim 2.5s forwards;
+  animation-delay: 0.3s;
   height: 7vh;
   overflow: hidden;
 }

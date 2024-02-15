@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 
 /* introduce */
 #introduce{
@@ -16,12 +16,24 @@
 }
 
 #introduce p{
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-family: "Fredoka", sans-serif;
+  font-size: 23px;
+  padding-top: 3rem;
 }
 
 h1.display-1{
   padding: 2rem;
+  animation: poyopoyo 2s ease-out infinite;
+  opacity: 1;
+}
+
+@keyframes poyopoyo {
+  0%, 40%, 60%, 80% {
+    transform: scale(1.0);
+  }
+  50%, 70% {
+    transform: scale(0.95);
+  }
 }
 
 span{
@@ -108,6 +120,7 @@ span{
   height: 30vh;
   padding: 3rem;
   margin: 3rem;
+  border-radius: 5px;
 }
 
 #descriptions > div > h1 {
@@ -116,5 +129,7 @@ span{
 }
 
 #descriptions > div > p {
-  margin-top: 0;
+  margin-top: 2rem;
+  font-family: "Fredoka", sans-serif;
+  font-size: 20px;
 }

@@ -1,4 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 
+.row{
+  --bs-gutter-x: 0;
+}
+
+#slide{
+  padding: 1rem;
+  text-align: center;
+}
 
 #work-group{
   padding: 5rem 3rem; 
@@ -8,13 +17,22 @@
 .card-body{
   background-color: var(--secondary-color);
   padding: 1rem 1.5rem;
+}
 
+.card-body a{
+  padding: 0.5rem 2rem;
+  margin: 1.5rem 0;
 }
 
 .card-title{
   padding: 1rem 0;
   font-weight: bold;
 }
+
+.card-text{
+  font-family: "Fredoka", sans-serif;
+}
+
 
 .list-group li{
   background-color: var(--secondary-color);

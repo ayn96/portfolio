@@ -10,8 +10,9 @@
   <link rel="stylesheet" href="../css/works.css">
   <link rel="stylesheet" href="../css/common.css">
   <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../css/animation.css">
 
-  <title>Ayana Kiytasuga|About me</title>
+  <title>Works</title>
 </head>
 <body> 
   <!-- header section -->
@@ -56,26 +57,29 @@
   <main>
     <!-- slide -->
     <div class="conteiner">
-        <div class="row col-lg-6" id="slide">
-          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-indicators" id="carouselIndicators">
-              </div>
-              <div class="carousel-inner" id="carouselInner">
-              </div>
-              <!-- left button -->
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                  data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-              </button>
-              <!-- right button -->
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                  data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-              </button>
+        <div class="row justify-content-center" id="slide">
+          <div class="col-lg-9" id="slide">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                <div class="carousel-indicators" id="carouselIndicators">
+                </div>
+                <div class="carousel-inner" id="carouselInner">
+                </div>
+                <!-- left button -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <!-- right button -->
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
           </div>
         </div>
+
     <!-- lists -->
       <div class="row" id="work-group">
         <div class="col-lg-4 col-6" id="work">  
@@ -90,7 +94,7 @@
             <li class="list-group-item"><i class="fa-brands fa-js"></i>Java Script</li>
           </ul>
           <div class="card-body text-center">
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#" class="btn btn-dark">Check</a>
           </div>
         </div>
         <div class="col-lg-4 col-6" id="work">  
@@ -105,33 +109,15 @@
             <li class="list-group-item"><i class="fa-brands fa-bootstrap"></i>Bootstrap</li>
           </ul>
           <div class="card-body text-center">
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-        <div class="col-lg-4 col-6" id="work">  
-          <img class="card-img-top" src="../asset/images/Screenshot 2024-02-09 at 21.56.11.png" alt="Card image cap">
-          <div class="card-body ">
-            <h5 class="card-title text-center">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">HTML</li>
-            <li class="list-group-item">CSS</li>
-            <li class="list-group-item">Java Script</li>
-          </ul>
-          <div class="card-body text-center">
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#" class="btn btn-dark">Check</a>
           </div>
         </div>
       </div>
     </div>      
-  </div>
-   
-    
   </main>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
+  <script>
     $(document).ready(function () {
         // Get all images from list items
         var images = $('#work-group').find('img');
@@ -151,9 +137,10 @@
             $('#carouselInner').append(carouselItem);
         });
     });
-</script>
+  </script>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="../js/animation.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-mTOiW0MbjMQVt7jODOAQbV4efikzBY+yo8JzcyuH90Tkze5pzsQu/J+sLvJb+qEp" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
